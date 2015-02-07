@@ -1,0 +1,82 @@
+
+.pop-up-wrapper {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 1939px;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 9999;
+  opacity: 0;
+}
+.rosita{
+    color: #eb008b;
+    display: inline;
+}
+
+.thank-you-text{
+    color:#FFFFFF;
+    text-align: center;
+    font-size: 28px;
+}
+.no-float{
+    float: none !important;
+}
+
+.content {
+  margin-top: 150px;
+  text-align: center;
+}
+.landing-links {
+  display: block;
+  width: auto;
+  margin-right: 14px;
+  margin-left: 14px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  clear: none;
+  background-image: url('../images/flecha.png');
+  background-position: 100% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  font-family:'Open Sans', sans-serif;
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  text-decoration: none;
+}
+.links_landing {
+  margin-top: 25px;
+  float: none;
+  text-align: center;
+}
+.links_landing_items {
+  margin-bottom: 22px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  float: none;
+  text-align: center;
+}
+.links_landing_link {
+  margin-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family:'Open Sans', sans-serif;
+  color: white;
+  font-size: 22px;
+  line-height: 23px;
+  font-style: italic;
+  text-decoration: none;
+}
+.arrow {
+  display: inline-block;
+  margin-top: -7px;
+  float: none;
+}
+.close {
+  float: right;
+}
+html.w-mod-js *[data-ix="fadein"] {
+  opacity: 0;
+}

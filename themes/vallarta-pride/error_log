@@ -1,0 +1,2 @@
+[29-Mar-2014 00:42:57 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vtapride/public_html/wp-content/themes/vallarta-pride/index.php on line 3
+[22-Jun-2014 00:04:31 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vtapride/public_html/wp-content/themes/vallarta-pride/index.php on line 3

@@ -1,0 +1,6 @@
+debug_log
+*.png
+*jpg
+
+uploads/
+plugins/
