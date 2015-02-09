@@ -1312,9 +1312,6 @@ header form.donate {
     
     .w-nav[data-collapse="medium"] form.donate {
         display: none;
-        margin-left: 20px;
-        position: relative;
-        top: 10px;
     }
 }
 

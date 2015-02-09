@@ -1148,12 +1148,9 @@ a > .blog-h2 {
     bottom: 15px;
     font-size: 12px;
   }
-
   .social-nav{
     display: none;
   }
-
-
 }
 @media (max-width: 767px) {
   p {
