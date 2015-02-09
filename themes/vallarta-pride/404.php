@@ -2,6 +2,8 @@
 <?php get_template_part('includes/header_image');?>
   <div class="home-container">
     <div class="w-container home-content" style="text-align: center;">
+      
+      <?php echo $_SERVER['REQUEST_URI']; ?><br />
         <?=LBL_404?>
     </div>
   </div>

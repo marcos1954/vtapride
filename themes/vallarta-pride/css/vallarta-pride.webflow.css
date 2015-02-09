@@ -1162,6 +1162,11 @@ a > .blog-h2 {
   .header {
     display: none;
   }
+  
+  .donate {
+    display: none;
+  }
+  
   .nav-menu {
     background-color: #441984;
     color: white;

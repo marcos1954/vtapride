@@ -55,11 +55,27 @@ $lang = get_bloginfo('language');
   <?php get_template_part( '/includes/'.$lang); ?>
     <div class="w-container header">
       <div class="w-row">
-        <div class="w-col w-col-4">
+        <div class="w-col w-col-5">
           <a href="<?php echo ($lang=='en-US') ? "/en/home":"/"; ?>">
             <!--<img src="<?php echo get_bloginfo ( 'template_url' ) ?>/images/logo_pride.png" alt="Vallarta Pride">-->
-            <img src="<?php echo get_bloginfo ( 'template_url' ) ?>/images/pridelogo300x120.png" alt="Vallarta Pride">
+            <img width=120 style="position: relative; top: 25px;" src="<?php echo get_bloginfo ( 'template_url' ) ?>/images/pridelogo140x120.png" alt="Vallarta Pride">
           </a>
+          <?php if ($lang=='en-US') { ?>
+            <form class="donate"  action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="JN4V4QG8CJVCG">
+            <input type="image" src="https://www.paypalobjects.com/en_US/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          <?php }else{ ?>
+            <form  class="donate"  action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="M64GX3YW9YAMN">
+            <input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          <?php } ?>
+          
         </div>
 
         <div class="social-wrapper">
@@ -82,7 +98,7 @@ $lang = get_bloginfo('language');
           </ul>
         </div>
 
-        <div class="w-col w-col-8 banner-header">
+        <div class="w-col w-col-7 banner-header">
           <?php
             if(is_front_page()){
               if( function_exists( 'wpx_bannerize' ) ) {

@@ -14,7 +14,7 @@ define('LBL_FOOT_DISC', 'El festival anual del orgullo gay, Vallarta Pride, cele
 
 define('LBL_FOOT_CONTACT', 'Contacto: (322) 173 11 07 | <a href="mailto:info@vallartapride.com">info@vallartapride.com</a>');
 
-define('LBL_FOOT_COPYR', 'Derechos Reservados Â© 2014 | DiseÃ±o y Desarrollo Web donado por <a style="color:#eb008b;" href="http://mijobrands.com/" target="_blank">Mijo! Brands</a>');
+define('LBL_FOOT_COPYR', 'Derechos Reservados Â© 2015 | DiseÃ±o y Desarrollo Web donado por <a style="color:#eb008b;" href="http://mijobrands.com/" target="_blank">Mijo! Brands</a>');
 
 define('LBL_SOURCE', 'Fuente: ');
 

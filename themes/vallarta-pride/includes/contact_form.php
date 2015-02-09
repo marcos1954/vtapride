@@ -41,6 +41,8 @@ if (isset($_POST['mj']['submit'])){
                                     <td valign="top" width="100"><b><i>'.LBL_NAME.':</i></b></td>
                                     <td><i>'.$name.'</i></td>
                                 </tr>
+                                
+                                <!---
                                 <tr>
                                     <td valign="top"><b><i>'.LBL_BUSINESS.':</i></b></td>
                                     <td><i>'.$business.'</i></td>
@@ -53,6 +55,8 @@ if (isset($_POST['mj']['submit'])){
                                     <td valign="top"><b><i>'.LBL_SPONSORTYPE.':</i></b></td>
                                     <td><i>'.$sponsor.'</i></td>
                                 </tr>
+                                --->
+                                
                                 <tr>
                                     <td valign="top"><b><i>'.LBL_PHONE.':</i></b></td>
                                     <td><i>'.$phone.'</i></td>
@@ -92,7 +96,7 @@ if (isset($_POST['mj']['submit'])){
   <form class="w-clearfix" name="email-form" data-name="Email Form" action="/emailform.php" method="post">
     <label for="name"><?= LBL_NAME ?>:</label>
     <input class="w-input contact-input" type="text" name="mj[name]" data-name="Name" value="<?php if(!empty($_POST['mj']['name'])){ echo $_POST['mj']['name']; }else{ echo ''; } ?>" required="required">
-    <label><?= LBL_BUSINESS ?>:</label>
+<!-- <label><?= LBL_BUSINESS ?>:</label>
     <input class="w-input contact-input" type="text" name="mj[business]" required="required" data-name="business" value="<?php if(!empty($_POST['mj']['business'])){ echo $_POST['mj']['business']; }else{ echo ''; } ?>">
     <label><?= LBL_POSITION ?>:</label>
     <input class="w-input contact-input" type="text" name="mj[position]" required="required" data-name="position" value="<?php if(!empty($_POST['mj']['position'])){ echo $_POST['mj']['position']; }else{ echo ''; } ?>">
@@ -104,7 +108,7 @@ if (isset($_POST['mj']['submit'])){
       <option value="<?= LBL_SPONSOR_SILVER ?>"><?= LBL_SPONSOR_SILVER ?></option>
       <option value="<?= LBL_SPONSOR_BRONCE ?>"><?= LBL_SPONSOR_BRONCE ?></option>
       <option value="<?= LBL_SPONSOR_PLATINUM ?>"><?= LBL_SPONSOR_PLATINUM ?></option>    
-    </select>
+    </select>--->
     <label><?= LBL_PHONE ?>:</label>
     <input class="w-input contact-input" type="text" placeholder="(123) 456 7890" name="mj[phone]" required="required" data-name="phone" value="<?php if(!empty($_POST['mj']['phone'])){ echo $_POST['mj']['phone']; }else{ echo ''; } ?>">
     <label for="email"><?= LBL_EMAIL_AD ?>:</label>

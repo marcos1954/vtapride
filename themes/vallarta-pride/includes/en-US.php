@@ -12,7 +12,7 @@ define('LBL_EMAIL_NL_SEND', 'Send');
 
 define('LBL_FOOT_DISC', 'The annual gay pride festival, Vallarta Pride, celebrates the lifestyle diversity of our city with arts and cultural events, entertainment, and films to show the world our vibrant, accepting community.');
 
-define('LBL_FOOT_COPYR', 'Copyright © 2014 | Web Design and Development donated by <a style="color:#eb008b;" href="http://en.mijobrands.com/" target="_blank">Mijo! Brands</a>');
+define('LBL_FOOT_COPYR', 'Copyright © 2015 | Web Design and Development donated by <a style="color:#eb008b;" href="http://en.mijobrands.com/" target="_blank">Mijo! Brands</a>');
 
 define('LBL_FOOT_CONTACT', 'Contact: (322) 173 11 07 | <a href="mailto:info@vallartapride.com">info@vallartapride.com</a> ');
 

@@ -6,6 +6,24 @@
             <img src="<?php echo get_bloginfo ( 'template_url' ) ?>/images/logo-pride-mobile.png" alt="52f3e8b073df7f296b001187_logo-pride-mobile.png">
           </a>
           
+          <?php if ($lang=='en-US') { ?>
+            <form style="display: inline-block; position: relative; top: 30px;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="JN4V4QG8CJVCG">
+            <input type="image" src="https://www.paypalobjects.com/en_US/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          <?php }else{ ?>
+            <form style="display: inline-block; position: relative; top: 30px;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="M64GX3YW9YAMN">
+            <input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          <?php } ?>
+          
+          
+          
           <?php
             echo wp_nav_menu(array(
               "theme_location" => "main_nav" ,

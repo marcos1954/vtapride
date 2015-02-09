@@ -1,6 +1,6 @@
 <?php 
 /*Template Name: Blog*/
-get_header(); ?>
+get_header(); echo 'index template<br />'; ?>
 <?php get_template_part('includes/header_image');?>
   <div>
     <div class="w-container">
@@ -52,7 +52,7 @@ get_header(); ?>
             </div>
           </div>
           <?php endwhile; ?>
-          <img class="inlist-banner" src="images/700x150.gif" alt="52fd1506121bc8277e000f78_700x150.gif">         
+          <!-- <img class="inlist-banner" src="images/700x150.gif" alt="52fd1506121bc8277e000f78_700x150.gif">  -->       
             <?php //wp_pagenavi(array('query' => $my_query)); ?>
         </div>
         <?php get_sidebar(); ?>
