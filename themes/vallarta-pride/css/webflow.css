@@ -1351,4 +1351,10 @@ header form.donate {
         position: relative;
         top: 10px;
     }
-} 
+}
+
+@media screen and (max-width:319px) {
+    div.w-nav.navigation-wrapper  .w-nav-brand.logo-mobile.donate {
+        display: none !important;
+    }
+}
