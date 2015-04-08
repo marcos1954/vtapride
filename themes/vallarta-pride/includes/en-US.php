@@ -2,9 +2,11 @@
 
 define('LBL_SUBSCRIBE', 'Subscribe');
 
-define('LBL_APP_DOWNLOAD', 'Download Pride App');
+define('LBL_APP_DOWNLOAD', 'Pride App');
 
 define('LBL_PARADE', 'Parade Info');
+
+define('LBL_RESTAURANTWEEK', 'Restaurant Week');
 
 define('LBL_EMAIL_NL', 'Your email here...');
 

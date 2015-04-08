@@ -6,6 +6,8 @@ define('LBL_APP_DOWNLOAD', 'Descarga Pride App');
 
 define('LBL_PARADE', 'Info del Desfile');
 
+define('LBL_RESTAURANTWEEK', 'Restaurant Week');
+
 define('LBL_EMAIL_NL', 'Escribe tu email...');
 
 define('LBL_EMAIL_NL_SEND', 'Enviar');
