@@ -33,13 +33,13 @@ query_posts(
 			'compare' => '>='
 		),
 		
-		array(
-		
-			'key' => 'homepage_event',
-			'value' => '1',
-			'compare' => '=='
-		
-		)
+		//array(
+		//
+		//	'key' => 'homepage_event',
+		//	'value' => '1',
+		//	'compare' => '=='
+		//
+		//)
 	)
 ));
 
