@@ -80,7 +80,7 @@ $lang = get_bloginfo('language');
 
         <div class="social-wrapper">
             <style>
-                .app-download{
+                .app-download {
                     display:inline-block;
                     height: 25px;
                     vertical-align: top;
@@ -99,9 +99,9 @@ $lang = get_bloginfo('language');
 
             </style>
           <ul>
-            <li><a class="social-link" target="_blank" href="http://virtualvallarta.com/puertovallarta/news/local/eight-reasons-to-enjoy-vallarta-in-may-2015-1504011.shtml"><?= LBL_RESTAURANTWEEK ?></a></li>
+            <li><a class="social-link" target="_blank" href="http://virtualvallarta.com/puertovallarta/specialpublications/restaurantweek.shtml"><?= LBL_RESTAURANTWEEK ?></a></li>
             <li><a class="social-link" target="_self" href="<?php echo ($lang=='en-US') ? '/vallarta-pride-parade/':'http://vallartapride.com/?p=3446' ?>" ><?= LBL_PARADE ?></a></li>
-            <li><a class="app-download" target="_blank" href="http://pride.guidevallarta.com/"><?= "App" ?></a></li>
+            <li><a class="app-download" target="_blank" href="http://pride.guidevallarta.com/"><?= LBL_APP_DOWNLOAD ?></a></li>
             <li><a target="_blank" href="https://twitter.com/VallartaPride"><span class="icon-twitter">&nbsp;</span></a></li>
             <li><a target="_blank" href="https://www.facebook.com/orgullovallartapride"><span class="icon-facebook">&nbsp;</span></a></li>
             <?php echo pll_the_languages(array('hide_current' => 1, 'echo' => 0)) ?>

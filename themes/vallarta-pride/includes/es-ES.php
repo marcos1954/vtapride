@@ -2,7 +2,7 @@
 
 define('LBL_SUBSCRIBE', 'Suscr&iacute;bete');
 
-define('LBL_APP_DOWNLOAD', 'Descarga Pride App');
+define('LBL_APP_DOWNLOAD', 'App');
 
 define('LBL_PARADE', 'Info del Desfile');
 

@@ -2,7 +2,7 @@
 
 define('LBL_SUBSCRIBE', 'Subscribe');
 
-define('LBL_APP_DOWNLOAD', 'Pride App');
+define('LBL_APP_DOWNLOAD', 'App');
 
 define('LBL_PARADE', 'Parade Info');
 
